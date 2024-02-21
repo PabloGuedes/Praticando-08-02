@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: lightsteelblue;
+  padding: 15px;
+}
+
+.dropbtn {
+  background-color: lightsteelblue;
+  color: #000;
+
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightgray;
+}
